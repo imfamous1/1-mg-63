@@ -170,12 +170,17 @@
       detailContent.innerHTML = '<p class="detail-content__loading">Загрузка материала…</p>';
       showScreen(screenDetail);
       fetch(item.url)
-        .then(function (r) { return r.text(); })
+        .then(function (r) {
+          if (!r.ok) throw new Error('Файл не найден (HTTP ' + r.status + ')');
+          return r.text();
+        })
         .then(function (md) {
+          if (md.trim().toLowerCase().indexOf('<!doctype html') === 0) throw new Error('Получена HTML-страница вместо материала');
           detailContent.innerHTML = '<div class="detail-content__body markdown">' + markdownToHtml(md) + '</div>';
         })
         .catch(function () {
           detailContent.innerHTML = (item.description ? '<p>' + escapeHtml(item.description) + '</p>' : '') +
+            '<p><strong>Материал по ссылке недоступен.</strong> Попробуйте открыть в новой вкладке:</p>' +
             '<p><a href="' + escapeAttr(item.url) + '" target="_blank" rel="noopener noreferrer">Открыть материал →</a></p>';
         });
       return;

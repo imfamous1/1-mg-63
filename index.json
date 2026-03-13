@@ -212,7 +212,7 @@
     },
     {
       "name": "Билеты к экзамену",
-      "url": "assets/exam/tickets.md",
+      "url": "https://raw.githubusercontent.com/imfamous1/1-mg-63/main/assets/exam/tickets.md",
       "description": "15 экзаменационных билетов с теоретическими вопросами и практическими заданиями по темам курса."
     }
   ]
