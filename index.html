@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ИТ в сфере безопасности — 1-МГ-63</title>
+  <meta name="description" content="Учебные материалы по дисциплине «Информационные технологии в сфере безопасности» для группы 1-МГ-63.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__title">Информационные технологии в сфере безопасности</h1>
+      <p class="header__subtitle">Группа 1-МГ-63. Материалы для подготовки.</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="screen screen--categories is-active" id="screen-categories" aria-label="Выбор категории">
+      <h2 class="screen__heading">Выберите раздел</h2>
+      <ul class="category-list" id="category-list"></ul>
+    </section>
+
+    <section class="screen screen--items" id="screen-items" aria-label="Содержимое раздела" hidden>
+      <button type="button" class="back-btn" id="back-to-categories" aria-label="Назад к разделам">← Назад к разделам</button>
+      <h2 class="screen__heading" id="items-heading"></h2>
+      <ul class="item-list" id="item-list"></ul>
+    </section>
+
+    <section class="screen screen--detail" id="screen-detail" aria-label="Подробное описание" hidden>
+      <button type="button" class="back-btn" id="back-to-items" aria-label="Назад к списку">← Назад к списку</button>
+      <h2 class="screen__heading" id="detail-heading"></h2>
+      <div class="detail-content" id="detail-content"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">1-МГ-63 · ИТ в сфере безопасности</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

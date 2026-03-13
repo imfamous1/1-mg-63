@@ -1,0 +1,219 @@
+{
+  "title": "Информационные технологии в сфере безопасности",
+  "subtitle": "Группа 1-МГ-63. Материалы для подготовки.",
+  "categories": [
+    {
+      "id": "lectures",
+      "name": "Лекции",
+      "description": "Часть 1 — верстка, часть 2 — JavaScript, часть 3 — нейросети и ИИ"
+    },
+    {
+      "id": "practices",
+      "name": "Практики",
+      "description": "Три практических задания: портфолио, интерактивная панель, ресурс по техносферной безопасности"
+    },
+    {
+      "id": "exam",
+      "name": "Экзамен",
+      "description": "Курсовая работа, билеты, сроки сдачи"
+    }
+  ],
+  "lectures": {
+    "parts": [
+      {
+        "id": "verstka",
+        "name": "Часть 1 — Верстка (HTML, CSS)",
+        "description": "Начало курса. Структура страницы, стили, адаптивность."
+      },
+      {
+        "id": "javascript",
+        "name": "Часть 2 — JavaScript",
+        "description": "Продолжение. Язык программирования для веб-страниц."
+      },
+      {
+        "id": "neuro",
+        "name": "Часть 3 — Нейросети и ИИ",
+        "description": "LLM, промпты, использование ИИ в разработке."
+      },
+      {
+        "id": "exam_theory",
+        "name": "Дополнительный материал",
+        "description": "Сводный теоретический материал по ключевым темам из экзаменационных билетов."
+      },
+      {
+        "id": "video",
+        "name": "Видеолекции на Rutube",
+        "description": "Вспомогательный видеоматериал по верстке и JavaScript."
+      }
+    ],
+    "verstka": [
+      {
+        "name": "Урок 1 — Введение в HTML",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_1.md",
+        "description": "Структура документа, теги, атрибуты."
+      },
+      {
+        "name": "Урок 2 — Заголовки",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_2.md",
+        "description": "Заголовки, абзацы, списки."
+      },
+      {
+        "name": "Урок 3 — Семантическая верстка",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_3.md",
+        "description": "Семантика HTML5: header, main, section, article, footer."
+      },
+      {
+        "name": "Урок 4 — Мультимедиа и ссылки",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_4.md",
+        "description": "Изображения, ссылки, медиа-элементы."
+      },
+      {
+        "name": "Урок 5 — Введение в CSS",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_5.md",
+        "description": "Селекторы, каскад, способы подключения стилей."
+      },
+      {
+        "name": "Урок 6 — Типография",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_6.md",
+        "description": "Шрифты, размеры, выравнивание текста."
+      },
+      {
+        "name": "Урок 7 — Блоковая модель",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_7.md",
+        "description": "Box model: margin, padding, border."
+      },
+      {
+        "name": "Урок 8 — Позиционирование",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_8.md",
+        "description": "position: static, relative, absolute, fixed, sticky."
+      },
+      {
+        "name": "Урок 9 — Flexbox",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_9.md",
+        "description": "Flexbox-верстка: контейнер и элементы."
+      },
+      {
+        "name": "Урок 10 — Grid",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_10.md",
+        "description": "CSS Grid: сетки и раскладка."
+      },
+      {
+        "name": "Урок 11 — Адаптивность",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_11.md",
+        "description": "Медиа-запросы, mobile-first."
+      },
+      {
+        "name": "Урок 12 — Формы",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_12.md",
+        "description": "Формы, поля ввода, кнопки."
+      },
+      {
+        "name": "Урок 13 — Трансформации и переходы",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_13.md",
+        "description": "transform, transition, анимации."
+      },
+      {
+        "name": "Урок 14 — Git",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-1/lessons/lesson_14.md",
+        "description": "Основы Git: clone, add, commit, push."
+      }
+    ],
+    "javascript": [
+      {
+        "name": "Урок 1 — Основы JavaScript",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-2/lessons/lesson_1.md",
+        "description": "Синтаксис, переменные, типы данных, операторы, циклы."
+      },
+      {
+        "name": "Урок 2 — Функции",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-2/lessons/lesson_2.md",
+        "description": "Объявление функций, параметры, возврат значения."
+      },
+      {
+        "name": "Урок 3 — DOM",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-2/lessons/lesson_3.md",
+        "description": "Document Object Model, выборка элементов, изменение страницы."
+      },
+      {
+        "name": "Урок 4 — ООП",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-2/lessons/lesson_4.md",
+        "description": "Объектно-ориентированное программирование в JS."
+      },
+      {
+        "name": "Урок 5 — Модули",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-2/lessons/lesson_5.md",
+        "description": "Модули ES6: import, export."
+      },
+      {
+        "name": "Урок 6 — JSON, API и асинхронность",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-2/lessons/lesson_6.md",
+        "description": "JSON, fetch, асинхронный код, промисы."
+      },
+      {
+        "name": "Урок 7 — Формы и хранилища",
+        "url": "https://raw.githubusercontent.com/imfamous1/stp-3-md-21/main/assets/semester-2/lessons/lesson_7.md",
+        "description": "Работа с формами, localStorage, sessionStorage."
+      }
+    ],
+    "neuro": [
+      {
+        "name": "Лекция — Нейросети и LLM в 2026: основы и применение",
+        "url": "assets/neuro/lesson_1.md",
+        "description": "Нейросети, LLM, экосистема моделей/компаний и практика применения в разработке."
+      },
+      {
+        "name": "Лекция — Промпт-инжиниринг и примеры промптов для сайта",
+        "url": "assets/neuro/lesson_2.md",
+        "description": "Как писать промпты, работать итерациями и давать ИИ контекст проекта (файлы, правки, вставка кода)."
+      }
+    ],
+    "exam_theory": [
+      {
+        "name": "Лекция — Краткий обзор вопросов к экзамену",
+        "url": "assets/lectures/exam_theory.md",
+        "description": "Тематический обзор по РПД и билетам: SDLC, архитектуры, Git, REST, ИИ, CI/CD, DOM, вёрстка, БД, безопасность, облака, техносферная безопасность."
+      }
+    ],
+    "video": [
+      {
+        "name": "Вёрстка (HTML, CSS)",
+        "url": "https://rutube.ru/plst/877516/",
+        "description": "Плейлист: вёрстка веб-страницы. Цифровая кафедра. 2025."
+      },
+      {
+        "name": "JavaScript",
+        "url": "https://rutube.ru/plst/1225064/",
+        "description": "Плейлист: JavaScript. Кафедра ЦАТ. 2025."
+      }
+    ]
+  },
+  "practices": [
+    {
+      "name": "Веб-страница портфолио-резюме",
+      "url": "assets/practices/portfolio.md",
+      "description": "Одностраничный сайт портфолио-резюме: HTML, CSS, JS, нейросети, Mobile First."
+    },
+    {
+      "name": "Интерактивная панель управления UI-компонентами",
+      "url": "assets/practices/panel.md",
+      "description": "Тематический дашборд с виджетами на ООП, ES6-модули, API, GitHub Pages."
+    },
+    {
+      "name": "Информационный ресурс по техносферной безопасности",
+      "url": "assets/practices/security-resource.md",
+      "description": "Информационный или образовательный ресурс по техносферной безопасности и инженерной защите окружающей среды."
+    }
+  ],
+  "exam": [
+    {
+      "name": "Курсовая работа",
+      "url": "assets/exam/coursework.md",
+      "description": "Цель курсового проекта, структура пояснительной записки (15–25 стр.), темы курсовых проектов и требования к оформлению."
+    },
+    {
+      "name": "Билеты к экзамену",
+      "url": "assets/exam/tickets.md",
+      "description": "15 экзаменационных билетов с теоретическими вопросами и практическими заданиями по темам курса."
+    }
+  ]
+}
